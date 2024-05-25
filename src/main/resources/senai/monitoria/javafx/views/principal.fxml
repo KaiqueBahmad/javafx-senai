@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="senai.monitoria.javafx.controllers.PrincipalController">
+   <children>
+      <Button layoutX="215.0" layoutY="54.0" mnemonicParsing="false" onAction="#irParaComprarRifa" prefHeight="64.0" prefWidth="171.0" text="Comprar uma Rifa">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <Button layoutX="215.0" layoutY="128.0" mnemonicParsing="false" onAction="#irParaReembolsarRifa" prefHeight="64.0" prefWidth="171.0" text="Reembolsar sua Rifa">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <Button layoutX="215.0" layoutY="208.0" mnemonicParsing="false" onAction="#irParaVerRifas" prefHeight="64.0" prefWidth="171.0" text="Ver Rifas">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
